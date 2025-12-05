@@ -1,0 +1,17 @@
+# Exemple de configuration pour le backend Security UX Layer
+
+[server]
+host = "0.0.0.0"
+port = 8080
+
+[database]
+url = "postgres://securityux:securityux@localhost:5432/securityux"
+
+[auth]
+# "local" pour comptes locaux de démo, "oidc" pour OpenID Connect
+mode = "local"
+
+[logging]
+level = "info"
+
+
